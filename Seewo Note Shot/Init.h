@@ -1,20 +1,18 @@
-#pragma comment(linker,"/subsystem:\"windows\" /entry:\"mainCPTStartup\"")
+//#pragma comment(linker,"/subsystem:\"windows\" /entry:\"mainCPTStartup\"")
 
 #include <Windows.h>
 #include <iostream>
-#include <string.h>
+#include <string>
 #include <fstream>
 #include <SDL.h>
 #include <SDL_image.h>
 #include <shlobj.h>
-#include "Class_Console.h"
+#include "extend.h"
 
-__declspec(selectany) Console* con;
-
-__declspec(selectany) std::string Path_Console = "Seewo Note Shot\\Settings\\console.bool";
+__declspec(selectany) std::string Path_Console = "\\Seewo Note Shot\\Settings\\console.bool";
 __declspec(selectany) bool console = false;
 
-__declspec(selectany) std::string Path_SaveWay = "Seewo Note Shot\\Settings\\SaveWay.int";
+__declspec(selectany) std::string Path_SaveWay = "\\Seewo Note Shot\\Settings\\SaveWay.int";
 enum SAVEWAY
 {
 	PNG = 0x00000000,
@@ -27,4 +25,4 @@ enum SAVEWAY
 };
 __declspec(selectany) SAVEWAY SaveWay;
 
-void Init();
+void init();

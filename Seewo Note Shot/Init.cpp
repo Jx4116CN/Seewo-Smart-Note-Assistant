@@ -5,14 +5,13 @@ void Init_Console()
 init:
 	if (!console) return;
 
-	con = new Console();
-	if (con->is_Alloc())
+	if (AllocConsole())
 	{
 		freopen("CONIN$", "r", stdin);
 		freopen("CONOUT$", "w", stdout);
 		freopen("CONOUT$", "w", stderr);
-
-		*con << "控制台已创建！" << std::endl;
+		OutDate();
+		std::cout << "控制台已创建！\n";
 	}
 	else
 	{
@@ -33,7 +32,8 @@ initSDL:
 		else
 			exit(0);
 	}
-	*con << "已初始化SDL" << std::endl;
+	OutDate();
+	std::cout << "已初始化SDL\n";
 
 initIMG:
 	if (NULL != IMG_Init(IMG_INIT_JPG | IMG_INIT_PNG | IMG_INIT_TIF | IMG_INIT_WEBP | IMG_INIT_AVIF | IMG_INIT_JXL))
@@ -43,7 +43,8 @@ initIMG:
 		else
 			exit(0);
 	}
-	*con << "已初始化SDL_IMG" << std::endl;
+	OutDate();
+	std::cout << "已初始化SDL_IMG\n";
 }
 
 void Init_Data()
@@ -111,12 +112,11 @@ init_SaveWay:
 		else
 			exit(0);
 	}
-	*con << "已打开文件 - " << Path_AppData + Path_SaveWay
-		<< "\nvalue:" << (int)SaveWay
-		<< std::endl;
+	OutDate();
+	std::cout << "已打开文件 - " << Path_AppData + Path_SaveWay << "\nvalue:" << (int)SaveWay << "\n";
 }
 
-inline void Init()
+void init()
 {
 	Init_Data();
 

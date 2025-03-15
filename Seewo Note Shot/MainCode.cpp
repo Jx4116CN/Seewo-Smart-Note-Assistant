@@ -1,8 +1,10 @@
 #include "Init.h"
 
+#undef main
+
 int main()
 {
-	Init();
+	init();
 
 	system("pause");
 
