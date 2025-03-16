@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3934a906-8b36-4cdd-843b-4aa33af3785c}</ProjectGuid>
+    <ProjectGuid>{a31fee50-6657-49a2-be8b-edbfda1e4fe8}</ProjectGuid>
     <RootNamespace>SeewoNoteShot</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -109,6 +109,8 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>SDL2.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -128,17 +130,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Class_Console.cpp" />
+    <ClInclude Include="extend.h" />
+    <ClInclude Include="Init.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="extend.cpp" />
     <ClCompile Include="Init.cpp" />
-    <ClCompile Include="Init.h" />
     <ClCompile Include="MainCode.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Seewo Note Shot\Settings\console.bool" />
-    <None Include="Seewo Note Shot\Settings\SaveWay.int" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Class_Console.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

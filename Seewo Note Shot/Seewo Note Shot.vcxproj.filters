@@ -15,30 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MainCode.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Init.h">
+    <ClInclude Include="extend.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Init.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="extend.cpp">
+      <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Init.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Class_Console.cpp">
+    <ClCompile Include="MainCode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Seewo Note Shot\Settings\SaveWay.int">
-      <Filter>资源文件</Filter>
-    </None>
-    <None Include="Seewo Note Shot\Settings\console.bool">
-      <Filter>资源文件</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Class_Console.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
