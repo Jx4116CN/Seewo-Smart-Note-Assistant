@@ -1,21 +1,11 @@
 #pragma once
-#include <iostream>
-#include <Windows.h>
 #include <SDL.h>
 #include <SDL_image.h>
+#include <iostream>
+#include <string>
+#include <Windows.h>
 
-void OutDate()
-{
-	SYSTEMTIME st;
-	GetLocalTime(&st);
+void OutDate();
 
-	std::cout << "["
-		<< st.wYear << "-"
-		<< st.wMonth << "-"
-		<< st.wDay << " "
-		<< st.wHour << ":"
-		<< st.wMinute << ":"
-		<< st.wSecond << "."
-		<< st.wMilliseconds
-		<< "]";
-}
+int SDL_ErrorMessageBox(_In_ Uint32 uType);
+int IMG_ErrorMessageBox(_In_ Uint32 uType);

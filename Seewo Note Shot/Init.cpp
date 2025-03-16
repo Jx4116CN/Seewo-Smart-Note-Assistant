@@ -27,7 +27,7 @@ void Init_SDL()
 initSDL:
 	if (NULL != SDL_Init(SDL_INIT_VIDEO))
 	{
-		if (IDRETRY == MessageBox(NULL, "Failed to Init SDL!", "Seewo Note Shot - Error", MB_RETRYCANCEL | MB_ICONERROR))
+		if (IDRETRY == SDL_ErrorMessageBox(MB_RETRYCANCEL | MB_ICONERROR))
 			goto initSDL;
 		else
 			exit(0);
@@ -36,9 +36,9 @@ initSDL:
 	std::cout << "ÒÑ³õÊ¼»¯SDL\n";
 
 initIMG:
-	if (NULL != IMG_Init(IMG_INIT_JPG | IMG_INIT_PNG | IMG_INIT_TIF | IMG_INIT_WEBP | IMG_INIT_AVIF | IMG_INIT_JXL))
+	if (NULL == IMG_Init(IMG_INIT_JPG | IMG_INIT_PNG | IMG_INIT_TIF | IMG_INIT_WEBP | IMG_INIT_AVIF | IMG_INIT_JXL))
 	{
-		if (IDRETRY == MessageBox(NULL, "Failed to Init SDL_IMG!", "Seewo Note Shot - Error", MB_RETRYCANCEL | MB_ICONERROR))
+		if (IDRETRY == IMG_ErrorMessageBox(MB_RETRYCANCEL | MB_ICONERROR))
 			goto initIMG;
 		else
 			exit(0);
@@ -68,7 +68,7 @@ init_Console:
 		else
 			exit(0);
 	}
-	Init_Console();
+	//Init_Console();
 
 init_SaveWay:
 	file.open(Path_AppData + Path_SaveWay, std::ios::binary);
