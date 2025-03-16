@@ -15,7 +15,7 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_01A306C51B194D8F925EA3F4EF51B547"
+        "MsmKey" = "8:_0C557937EA3A4C6E83031FAD886D0C25"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -33,7 +33,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_8098CB2948D8490A9441CBA26C6AC179"
+        "MsmKey" = "8:_65D05B6BDE704E139FEBEC05B787CE5C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -82,13 +82,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B2A90CF186C4D741AD014A832D93CBC3"
+        "OwnerKey" = "8:_95B8BF0D67834CD4A13349C887FE5F8F"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_95B8BF0D67834CD4A13349C887FE5F8F"
+        "OwnerKey" = "8:_B2A90CF186C4D741AD014A832D93CBC3"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -109,6 +109,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -125,6 +133,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -154,12 +170,12 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_01A306C51B194D8F925EA3F4EF51B547"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0C557937EA3A4C6E83031FAD886D0C25"
             {
-            "SourcePath" = "8:C:\\Users\\Administrator\\AppData\\Roaming\\Seewo Note Shot\\Settings\\console.bool"
-            "TargetName" = "8:console.bool"
+            "SourcePath" = "8:File System on Target Machine\\User's Application Data Folder\\Seewo Note Shot\\Settings\\SaveWay.int"
+            "TargetName" = "8:SaveWay.int"
             "Tag" = "8:"
-            "Folder" = "8:_FEA1360E9A704BB89C228C6E784549A5"
+            "Folder" = "8:_CB194D49B2294863B8C0D4C0E8E2A030"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -194,12 +210,12 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8098CB2948D8490A9441CBA26C6AC179"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_65D05B6BDE704E139FEBEC05B787CE5C"
             {
-            "SourcePath" = "8:C:\\Users\\Administrator\\AppData\\Roaming\\Seewo Note Shot\\Settings\\SaveWay.int"
-            "TargetName" = "8:SaveWay.int"
+            "SourcePath" = "8:File System on Target Machine\\User's Application Data Folder\\Seewo Note Shot\\Settings\\console.bool"
+            "TargetName" = "8:console.bool"
             "Tag" = "8:"
-            "Folder" = "8:_FEA1360E9A704BB89C228C6E784549A5"
+            "Folder" = "8:_CB194D49B2294863B8C0D4C0E8E2A030"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -383,22 +399,22 @@
             "Property" = "8:AppDataFolder"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_E8465C0BEDE84DED93B58A2CC2A5C192"
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_87911A337125461586F47884F1185E64"
                     {
                     "Name" = "8:Seewo Note Shot"
                     "AlwaysCreate" = "11:FALSE"
                     "Condition" = "8:"
                     "Transitive" = "11:FALSE"
-                    "Property" = "8:_6ABB55E0BAD740708FF703282C69A9E4"
+                    "Property" = "8:_0B956ED1CABC41618E87C049205BDEDC"
                         "Folders"
                         {
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_FEA1360E9A704BB89C228C6E784549A5"
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_CB194D49B2294863B8C0D4C0E8E2A030"
                             {
                             "Name" = "8:Settings"
                             "AlwaysCreate" = "11:FALSE"
                             "Condition" = "8:"
                             "Transitive" = "11:FALSE"
-                            "Property" = "8:_921C122FB4C94844BFC3F619C30925DA"
+                            "Property" = "8:_278B8EC9FB4D495C8BFD7E4974FEA842"
                                 "Folders"
                                 {
                                 }
@@ -446,7 +462,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:希沃白板-智能笔记助手"
         "ProductCode" = "8:{452A9426-7CB4-492A-A5B2-37B43C342825}"
-        "PackageCode" = "8:{D7E356EE-A47A-4DBE-906C-DA9385F9E2A8}"
+        "PackageCode" = "8:{56FB1A0B-7247-454E-85DF-0C4198AB71BD}"
         "UpgradeCode" = "8:{A223FE57-546D-4A78-9859-0CC1D1797A96}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -454,12 +470,12 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:0.0.0"
-        "Manufacturer" = "8:Default Company Name"
+        "Manufacturer" = "8:JX‘s workshop"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:Setup"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:JX‘s workshop"
+        "ARPCONTACT" = "8:JX"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
