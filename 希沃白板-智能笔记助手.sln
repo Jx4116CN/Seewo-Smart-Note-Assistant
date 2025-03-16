@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Seewo Note Shot", "Seewo No
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seewo Note Shot - 配置工具", "Seewo Note Shot - 配置工具\Seewo Note Shot - 配置工具.csproj", "{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{DBE9999D-346E-CA63-6964-F3B7FC1D42B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,12 @@ Global
 		{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}.Release|x64.Build.0 = Release|Any CPU
 		{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}.Release|x86.ActiveCfg = Release|Any CPU
 		{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}.Release|x86.Build.0 = Release|Any CPU
+		{DBE9999D-346E-CA63-6964-F3B7FC1D42B4}.Debug|Any CPU.ActiveCfg = Debug
+		{DBE9999D-346E-CA63-6964-F3B7FC1D42B4}.Debug|x64.ActiveCfg = Release
+		{DBE9999D-346E-CA63-6964-F3B7FC1D42B4}.Debug|x86.ActiveCfg = Debug
+		{DBE9999D-346E-CA63-6964-F3B7FC1D42B4}.Release|Any CPU.ActiveCfg = Release
+		{DBE9999D-346E-CA63-6964-F3B7FC1D42B4}.Release|x64.ActiveCfg = Release
+		{DBE9999D-346E-CA63-6964-F3B7FC1D42B4}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
