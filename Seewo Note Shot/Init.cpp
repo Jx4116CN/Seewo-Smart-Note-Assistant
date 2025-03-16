@@ -68,7 +68,7 @@ init_Console:
 		else
 			exit(0);
 	}
-	//Init_Console();
+	Init_Console();
 
 init_SaveWay:
 	file.open(Path_AppData + Path_SaveWay, std::ios::binary);

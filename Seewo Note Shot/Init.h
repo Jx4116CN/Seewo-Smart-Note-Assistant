@@ -1,12 +1,10 @@
-#pragma comment(linker,"/subsystem:\"windows\" /entry:\"mainCPTStartup\"")
-
 #pragma once
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <Windows.h>
+
 #include "extend.h"
+#include <fstream>
 #include <shlobj.h>
+
+//using namespace std;
 
 __declspec(selectany) std::string Path_Console = "\\Seewo Note Shot\\Settings\\console.bool";
 __declspec(selectany) bool console = false;

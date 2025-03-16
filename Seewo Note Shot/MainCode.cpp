@@ -1,8 +1,6 @@
 #include "Init.h"
 
-#undef main
-
-int main()
+int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
 {
 	init();
 
