@@ -4,7 +4,9 @@ int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int n
 {
 	init();
 
-	system("pause");
+	shot();
+
+	quit();
 
 	return 0;
 }

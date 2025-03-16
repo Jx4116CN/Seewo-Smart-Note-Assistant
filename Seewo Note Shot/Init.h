@@ -1,10 +1,9 @@
 #pragma once
 
 #include "extend.h"
-#include <fstream>
 #include <shlobj.h>
 
-//using namespace std;
+__declspec(selectany) std::string logfilename;
 
 __declspec(selectany) std::string Path_Console = "\\Seewo Note Shot\\Settings\\console.bool";
 __declspec(selectany) bool console = false;
@@ -23,3 +22,6 @@ enum SAVEWAY
 __declspec(selectany) SAVEWAY SaveWay;
 
 void init();
+void quit();
+
+void shot();

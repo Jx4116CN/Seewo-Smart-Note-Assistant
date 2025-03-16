@@ -4,8 +4,12 @@
 #include <iostream>
 #include <string>
 #include <Windows.h>
+#include <fstream>
 
 void OutDate();
+void OutDateToFile(const char* path);
+
+int OutToFile(std::string strout, const char* path);
 
 int SDL_ErrorMessageBox(_In_ Uint32 uType);
 int IMG_ErrorMessageBox(_In_ Uint32 uType);

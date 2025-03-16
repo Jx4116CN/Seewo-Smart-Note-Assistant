@@ -2,9 +2,17 @@
 
 void Init_Console()
 {
-init:
+	SYSTEMTIME st;
+	GetLocalTime(&st);
+	logfilename = "logs";
+	CreateDirectory(logfilename.c_str(), NULL);
+	logfilename += "\\" + std::to_string(st.wYear) + "-" + std::to_string(st.wMonth) + "-" + std::to_string(st.wDay);
+	CreateDirectory(logfilename.c_str(), NULL);
+	logfilename += "\\" + std::to_string(st.wYear) + "-" + std::to_string(st.wMonth) + "-" + std::to_string(st.wDay) + "-" + std::to_string(st.wHour) + "-" + std::to_string(st.wMinute) + "-" + std::to_string(st.wSecond) + "-" + std::to_string(st.wMilliseconds) + ".log";
+
 	if (!console) return;
 
+init:
 	if (AllocConsole())
 	{
 		freopen("CONIN$", "r", stdin);
@@ -12,6 +20,8 @@ init:
 		freopen("CONOUT$", "w", stderr);
 		OutDate();
 		std::cout << "控制台已创建！\n";
+		OutDateToFile(logfilename.c_str());
+		OutToFile("控制台已创建！\n", logfilename.c_str());
 	}
 	else
 	{
@@ -20,6 +30,11 @@ init:
 		else
 			exit(0);
 	}
+}
+void Quit_Console()
+{
+	if (console)
+		FreeConsole();
 }
 
 void Init_SDL()
@@ -34,6 +49,8 @@ initSDL:
 	}
 	OutDate();
 	std::cout << "已初始化SDL\n";
+	OutDateToFile(logfilename.c_str());
+	OutToFile("已初始化SDL\n", logfilename.c_str());
 
 initIMG:
 	if (NULL == IMG_Init(IMG_INIT_JPG | IMG_INIT_PNG | IMG_INIT_TIF | IMG_INIT_WEBP | IMG_INIT_AVIF | IMG_INIT_JXL))
@@ -45,6 +62,13 @@ initIMG:
 	}
 	OutDate();
 	std::cout << "已初始化SDL_IMG\n";
+	OutDateToFile(logfilename.c_str());
+	OutToFile("已初始化SDL_IMG\n", logfilename.c_str());
+}
+void Quit_SDL()
+{
+	IMG_Quit();
+	SDL_Quit();
 }
 
 void Init_Data()
@@ -114,6 +138,8 @@ init_SaveWay:
 	}
 	OutDate();
 	std::cout << "已打开文件 - " << Path_AppData + Path_SaveWay << "\nvalue:" << (int)SaveWay << "\n";
+	OutDateToFile(logfilename.c_str());
+	OutToFile("已打开文件 - " + Path_AppData + Path_SaveWay + "\nvalue:" + std::to_string((int)SaveWay) + "\n", logfilename.c_str());
 }
 
 void init()
@@ -121,4 +147,9 @@ void init()
 	Init_Data();
 
 	Init_SDL();
+}
+void quit()
+{
+	Quit_SDL();
+	Quit_Console();
 }
