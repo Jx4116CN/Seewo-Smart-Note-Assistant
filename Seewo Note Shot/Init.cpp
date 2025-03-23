@@ -1,5 +1,13 @@
 #include "Init.h"
 
+inline void OutLog(std::string str)
+{
+	OutDate();
+	std::cout << str << "\n";
+	OutDateToFile(logfilename.c_str());
+	OutToFile(str + "\n", logfilename.c_str());
+}
+
 void Init_Console()
 {
 	SYSTEMTIME st;
@@ -18,10 +26,7 @@ init:
 		freopen("CONIN$", "r", stdin);
 		freopen("CONOUT$", "w", stdout);
 		freopen("CONOUT$", "w", stderr);
-		OutDate();
-		std::cout << "控制台已创建！\n";
-		OutDateToFile(logfilename.c_str());
-		OutToFile("控制台已创建！\n", logfilename.c_str());
+		OutLog("控制台已创建！");
 	}
 	else
 	{
@@ -47,10 +52,7 @@ initSDL:
 		else
 			exit(0);
 	}
-	OutDate();
-	std::cout << "已初始化SDL\n";
-	OutDateToFile(logfilename.c_str());
-	OutToFile("已初始化SDL\n", logfilename.c_str());
+	OutLog("已初始化SDL");
 
 initIMG:
 	if (NULL == IMG_Init(IMG_INIT_JPG | IMG_INIT_PNG | IMG_INIT_TIF | IMG_INIT_WEBP | IMG_INIT_AVIF | IMG_INIT_JXL))
@@ -60,10 +62,7 @@ initIMG:
 		else
 			exit(0);
 	}
-	OutDate();
-	std::cout << "已初始化SDL_IMG\n";
-	OutDateToFile(logfilename.c_str());
-	OutToFile("已初始化SDL_IMG\n", logfilename.c_str());
+	OutLog("已初始化SDL_IMG");
 }
 void Quit_SDL()
 {
@@ -136,15 +135,41 @@ init_SaveWay:
 		else
 			exit(0);
 	}
-	OutDate();
-	std::cout << "已打开文件 - " << Path_AppData + Path_SaveWay << "\nvalue:" << (int)SaveWay << "\n";
-	OutDateToFile(logfilename.c_str());
-	OutToFile("已打开文件 - " + Path_AppData + Path_SaveWay + "\nvalue:" + std::to_string((int)SaveWay) + "\n", logfilename.c_str());
+	OutLog("已打开文件 - " + Path_AppData + Path_SaveWay + "\nvalue:" + std::to_string((int)SaveWay));
+}
+
+void Init_Size()
+{
+	HDC hdc = ::GetDC(nullptr);
+	int cxLogical = GetDeviceCaps(hdc, HORZRES);        // 逻辑分辨率宽度
+	int cxPhysical = GetDeviceCaps(hdc, DESKTOPHORZRES); // 物理分辨率宽度
+	::ReleaseDC(nullptr, hdc);
+
+	float scaleFactor = static_cast<double>(cxPhysical) / cxLogical;
+	OutLog("Scale Factor: " + std::to_string(scaleFactor));
+
+	screenw = GetSystemMetrics(SM_CXSCREEN);
+	screenh = GetSystemMetrics(SM_CYSCREEN);
+	OutLog("Screen width: " + std::to_string(screenw) + " Screen height: " + std::to_string(screenh));
+
+	int spacing = scaleFactor / 480 * 1920;
+	int width = scaleFactor / 29 * 1920;
+	int height = scaleFactor / 19 * 1080;
+	right2 = screenw - spacing;
+	right1 = right2 - width * 2;
+	bottom2 = screenh - spacing;
+	bottom1 = bottom2;
+	left2 = right2 - width;
+	left1 = right1 - width;
+	top2 = bottom2 - height;
+	top1 = bottom1 - height;
 }
 
 void init()
 {
 	Init_Data();
+
+	Init_Size();
 
 	Init_SDL();
 }

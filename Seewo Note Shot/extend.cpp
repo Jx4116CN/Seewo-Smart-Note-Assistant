@@ -67,3 +67,11 @@ int IMG_ErrorMessageBox(_In_ Uint32 uType)
 		"Error",
 		uType);
 }
+
+bool JudgePoint(SDL_Event* Event,int left, int top, int right, int bottom)
+{
+	int x = Event->button.x;
+	int y = Event->button.y;
+	if (x >= left && x <= right && y >= top && y <= bottom) return true;
+	else return false;
+}
