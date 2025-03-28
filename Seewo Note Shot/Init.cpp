@@ -145,7 +145,7 @@ void Init_Size()
 	int cxPhysical = GetDeviceCaps(hdc, DESKTOPHORZRES); // 物理分辨率宽度
 	::ReleaseDC(nullptr, hdc);
 
-	float scaleFactor = static_cast<double>(cxPhysical) / cxLogical;
+	scaleFactor = static_cast<double>(cxPhysical) / cxLogical;
 	OutLog("Scale Factor: " + std::to_string(scaleFactor));
 
 	screenw = GetSystemMetrics(SM_CXSCREEN);

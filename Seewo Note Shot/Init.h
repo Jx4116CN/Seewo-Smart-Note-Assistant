@@ -3,7 +3,6 @@
 #include "extend.h"
 #include <shlobj.h>
 #include <thread>
-#include <mutex>
 
 __declspec(selectany) std::string logfilename;
 
@@ -24,7 +23,7 @@ enum SAVEWAY
 __declspec(selectany) SAVEWAY SaveWay;
 
 __declspec(selectany) std::string Path_SavePath = "\\Seewo Note Shot\\Settings\\SavePath.string";
-__declspec(selectany) std::string SavePath = "D:\\screenshot";
+__declspec(selectany) std::string SavePath = "D:\\screenshot\\";
 
 __declspec(selectany) int screenw;
 __declspec(selectany) int screenh;
@@ -32,7 +31,9 @@ __declspec(selectany) float scaleFactor;
 __declspec(selectany) int left1, top1, right1, bottom1;
 __declspec(selectany) int left2, top2, right2, bottom2;
 
+inline void OutLog(std::string str);
+
 void init();
 void quit();
 
-void shot();
+void Shot();
