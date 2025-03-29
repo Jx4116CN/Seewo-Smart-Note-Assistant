@@ -23,7 +23,7 @@ enum SAVEWAY
 __declspec(selectany) SAVEWAY SaveWay;
 
 __declspec(selectany) std::string Path_SavePath = "\\Seewo Note Shot\\Settings\\SavePath.string";
-__declspec(selectany) std::string SavePath = "D:\\screenshot\\";
+__declspec(selectany) std::string SavePath;
 
 __declspec(selectany) int screenw;
 __declspec(selectany) int screenh;

@@ -94,11 +94,11 @@ init_Console:
 	Init_Console();
 
 init_SaveWay:
-	file.open(Path_AppData + Path_SaveWay, std::ios::binary);
-	if (file.is_open())
+	std::ifstream file2(Path_AppData + Path_SaveWay);
+	if (file2.is_open())
 	{
 		int data;
-		file.read((char*)&data, sizeof(data));
+		file2.read((char*)&data, sizeof(data));
 		switch (data)
 		{
 		case 0:
@@ -126,7 +126,7 @@ init_SaveWay:
 			SaveWay = PNG;
 			break;
 		}
-		file.close();
+		file2.close();
 	}
 	else
 	{
@@ -136,6 +136,22 @@ init_SaveWay:
 			exit(0);
 	}
 	OutLog("已打开文件 - " + Path_AppData + Path_SaveWay + "\nvalue:" + std::to_string((int)SaveWay));
+
+init_SavePath:
+	std::ifstream file3(Path_AppData + Path_SavePath);
+	if (file3.is_open())
+	{
+		std::getline(file3, SavePath);
+	}
+	else
+	{
+		if (IDRETRY == MessageBox(NULL, ("Failed to open the file - " + Path_AppData + Path_SaveWay).c_str(), "Seewo Note Shot - 提示", MB_RETRYCANCEL | MB_ICONERROR))
+			goto init_SavePath;
+		else
+			exit(0);
+	}
+	OutLog("已打开文件 - " + Path_AppData + Path_SavePath + "\nvalue:" + SavePath);
+	SavePath += '\\';
 }
 
 void Init_Size()
