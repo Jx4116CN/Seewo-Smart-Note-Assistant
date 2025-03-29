@@ -33,6 +33,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_60CE897D3E9E4051BC41264E1D56F054"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_65D05B6BDE704E139FEBEC05B787CE5C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -40,6 +46,12 @@
         "Entry"
         {
         "MsmKey" = "8:_95B8BF0D67834CD4A13349C887FE5F8F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9AB68C5491B7498AA5E9579A6658E93C"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -71,6 +83,12 @@
         {
         "MsmKey" = "8:_C5F49D843797F9EE3ED08F609685E17B"
         "OwnerKey" = "8:_5FE5D9401A2E42108C0661BF69AAD106"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D46BB5F60F134D9D98EDB57159073F10"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -116,6 +134,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
         "Release"
@@ -127,7 +153,7 @@
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
-        "Compression" = "3:2"
+        "Compression" = "3:3"
         "SignOutput" = "11:FALSE"
         "CertificateFile" = "8:"
         "PrivateKeyFile" = "8:"
@@ -140,6 +166,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -210,10 +244,50 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_60CE897D3E9E4051BC41264E1D56F054"
+            {
+            "SourcePath" = "8:..\\Seewo Note Shot\\icon\\1_icon128.ico"
+            "TargetName" = "8:1_icon128.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_9C85E92757644CAEAD04C7FA2E9968BD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_65D05B6BDE704E139FEBEC05B787CE5C"
             {
             "SourcePath" = "8:File System on Target Machine\\User's Application Data Folder\\Seewo Note Shot\\Settings\\console.bool"
             "TargetName" = "8:console.bool"
+            "Tag" = "8:"
+            "Folder" = "8:_CB194D49B2294863B8C0D4C0E8E2A030"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9AB68C5491B7498AA5E9579A6658E93C"
+            {
+            "SourcePath" = "8:File System on Target Machine\\User's Application Data Folder\\Seewo Note Shot\\Settings\\SavePath.string"
+            "TargetName" = "8:SavePath.string"
             "Tag" = "8:"
             "Folder" = "8:_CB194D49B2294863B8C0D4C0E8E2A030"
             "Condition" = "8:"
@@ -341,6 +415,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D46BB5F60F134D9D98EDB57159073F10"
+            {
+            "SourcePath" = "8:..\\Seewo Note Shot - 配置工具\\bin\\Debug\\icon\\2_icon128.ico"
+            "TargetName" = "8:2_icon128.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_9C85E92757644CAEAD04C7FA2E9968BD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D48ED45E4220BEE1347DE0DABAAAF351"
             {
             "SourcePath" = "8:VCRUNTIME140_1D.dll"
@@ -388,6 +482,17 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_9C85E92757644CAEAD04C7FA2E9968BD"
+                    {
+                    "Name" = "8:icon"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_2007AD5C53014C288955D8D42522C33E"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_85B47B16FD3D44969B2CE0B64D81643A"
@@ -461,15 +566,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:希沃白板-智能笔记助手"
-        "ProductCode" = "8:{452A9426-7CB4-492A-A5B2-37B43C342825}"
-        "PackageCode" = "8:{56FB1A0B-7247-454E-85DF-0C4198AB71BD}"
-        "UpgradeCode" = "8:{A223FE57-546D-4A78-9859-0CC1D1797A96}"
+        "ProductCode" = "8:{10DC6B61-0FFA-4AAB-9E92-5057797098E5}"
+        "PackageCode" = "8:{8C8851FE-4C24-49C4-AE6D-E7DD25D4EFCC}"
+        "UpgradeCode" = "8:{ADE569A4-3DCA-4EB6-BFC4-0CF2CFFEDCEB}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:0.0.0"
+        "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:JX‘s workshop"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -479,7 +584,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_60CE897D3E9E4051BC41264E1D56F054"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -593,7 +698,21 @@
             "Target" = "8:_5FE5D9401A2E42108C0661BF69AAD106"
             "Folder" = "8:_6BE150B793A94EAEB1CB8EED45994591"
             "WorkingFolder" = "8:_7390665AF37C41C78F45722E5838C7B3"
-            "Icon" = "8:"
+            "Icon" = "8:_60CE897D3E9E4051BC41264E1D56F054"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_41A38DE068164C1F9F476016D6BFF56D"
+            {
+            "Name" = "8:Seewo Note Shot - 配置工具"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_95B8BF0D67834CD4A13349C887FE5F8F"
+            "Folder" = "8:_B6D3F58D385C48A98851892B24895AFF"
+            "WorkingFolder" = "8:_7390665AF37C41C78F45722E5838C7B3"
+            "Icon" = "8:_D46BB5F60F134D9D98EDB57159073F10"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_607338F4DFC0453CBD1B863CBCF20CD2"
@@ -607,7 +726,7 @@
             "Target" = "8:_95B8BF0D67834CD4A13349C887FE5F8F"
             "Folder" = "8:_904B8BE8C60C4CB1A0F9FC11E3B22634"
             "WorkingFolder" = "8:_7390665AF37C41C78F45722E5838C7B3"
-            "Icon" = "8:"
+            "Icon" = "8:_D46BB5F60F134D9D98EDB57159073F10"
             "Feature" = "8:"
             }
         }
@@ -938,8 +1057,8 @@
                             "Type" = "3:15"
                             "ContextData" = "8:"
                             "Attributes" = "3:0"
-                            "Setting" = "3:1"
-                            "Value" = "8:#1258"
+                            "Setting" = "3:2"
+                            "Value" = "8:重启电脑后程序启动"
                             "DefaultValue" = "8:#1258"
                             "UsePlugInResources" = "11:TRUE"
                             }

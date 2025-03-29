@@ -1,121 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}|Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177.csproj|d:\\visual studio \u5F00\u53D1\\\u591A\u8BED\u8A00project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\seewo note shot - \u914D\u7F6E\u5DE5\u5177\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}|Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177.csproj|solutionrelative:seewo note shot - \u914D\u7F6E\u5DE5\u5177\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}|Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177.csproj|d:\\visual studio \u5F00\u53D1\\\u591A\u8BED\u8A00project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\seewo note shot - \u914D\u7F6E\u5DE5\u5177\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}|Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177.csproj|solutionrelative:seewo note shot - \u914D\u7F6E\u5DE5\u5177\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}|Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177.csproj|d:\\visual studio \u5F00\u53D1\\\u591A\u8BED\u8A00project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\seewo note shot - \u914D\u7F6E\u5DE5\u5177\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}|Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177.csproj|solutionrelative:seewo note shot - \u914D\u7F6E\u5DE5\u5177\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}|Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177.csproj|d:\\visual studio \u5F00\u53D1\\\u591A\u8BED\u8A00project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\seewo note shot - \u914D\u7F6E\u5DE5\u5177\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}|Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177.csproj|solutionrelative:seewo note shot - \u914D\u7F6E\u5DE5\u5177\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A31FEE50-6657-49A2-BE8B-EDBFDA1E4FE8}|Seewo Note Shot\\Seewo Note Shot.vcxproj|D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\Shot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A31FEE50-6657-49A2-BE8B-EDBFDA1E4FE8}|Seewo Note Shot\\Seewo Note Shot.vcxproj|solutionrelative:Seewo Note Shot\\Shot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A31FEE50-6657-49A2-BE8B-EDBFDA1E4FE8}|Seewo Note Shot\\Seewo Note Shot.vcxproj|D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\Init.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A31FEE50-6657-49A2-BE8B-EDBFDA1E4FE8}|Seewo Note Shot\\Seewo Note Shot.vcxproj|solutionrelative:Seewo Note Shot\\Init.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedHeight": 200,
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Form1.cs",
-              "RelativeDocumentMoniker": "Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Form1.cs",
-              "ToolTip": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Form1.cs*",
-              "RelativeToolTip": "Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Form1.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAWwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T13:35:03.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Form1.cs",
-              "RelativeDocumentMoniker": "Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Form1.cs",
-              "ToolTip": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Form1.cs [\u8BBE\u8BA1]*",
-              "RelativeToolTip": "Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Form1.cs [\u8BBE\u8BA1]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T13:01:08.07Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Program.cs",
-              "RelativeDocumentMoniker": "Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Program.cs",
-              "ToolTip": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Program.cs",
-              "RelativeToolTip": "Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:58:54.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Form1.Designer.cs",
-              "ToolTip": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Form1.Designer.cs*",
-              "RelativeToolTip": "Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Form1.Designer.cs*",
-              "ViewState": "AgIAADAAAAAAAAAAAAAewEIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:58:33.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Init.cpp",
-              "DocumentMoniker": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\Init.cpp",
-              "RelativeDocumentMoniker": "Seewo Note Shot\\Init.cpp",
-              "ToolTip": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\Init.cpp",
-              "RelativeToolTip": "Seewo Note Shot\\Init.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-16T14:17:31.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Shot.cpp",
-              "DocumentMoniker": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\Shot.cpp",
-              "RelativeDocumentMoniker": "Seewo Note Shot\\Shot.cpp",
-              "ToolTip": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\Shot.cpp",
-              "RelativeToolTip": "Seewo Note Shot\\Shot.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-16T14:16:18.485Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

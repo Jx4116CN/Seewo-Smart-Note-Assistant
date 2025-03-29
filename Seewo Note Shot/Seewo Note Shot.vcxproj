@@ -140,7 +140,7 @@
     <ClCompile Include="Shot.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Setup\File System on Target Machine\User%27s Application Data Folder\Seewo Note Shot\Settings\console.bool" />
+    <ResourceCompile Include="icon_resource.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
