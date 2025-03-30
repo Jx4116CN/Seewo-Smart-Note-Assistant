@@ -83,7 +83,7 @@ namespace Seewo_Note_Shot___配置工具
             this.Label_SPath.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Label_SPath.Location = new System.Drawing.Point(3, 10);
             this.Label_SPath.Name = "Label_SPath";
-            this.Label_SPath.Size = new System.Drawing.Size(100, 23);
+            this.Label_SPath.Size = new System.Drawing.Size(112, 23);
             this.Label_SPath.TabIndex = 0;
             this.Label_SPath.Text = "截图保存的路径";
             // 
