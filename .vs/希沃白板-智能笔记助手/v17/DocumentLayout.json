@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}|Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177.csproj|d:\\visual studio \u5F00\u53D1\\\u591A\u8BED\u8A00project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\seewo note shot - \u914D\u7F6E\u5DE5\u5177\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}|Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177.csproj|solutionrelative:seewo note shot - \u914D\u7F6E\u5DE5\u5177\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormMain.Designer.cs",
+              "DocumentMoniker": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\FormMain.Designer.cs",
+              "RelativeDocumentMoniker": "Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\FormMain.Designer.cs",
+              "ToolTip": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\FormMain.Designer.cs",
+              "RelativeToolTip": "Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\FormMain.Designer.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:21:06.456Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
