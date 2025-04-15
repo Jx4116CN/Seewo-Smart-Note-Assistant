@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}|Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177.csproj|d:\\visual studio \u5F00\u53D1\\\u591A\u8BED\u8A00project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\seewo note shot - \u914D\u7F6E\u5DE5\u5177\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857783A5-5C14-4B5D-9CBC-1EA156B68CF3}|Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177.csproj|solutionrelative:seewo note shot - \u914D\u7F6E\u5DE5\u5177\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A31FEE50-6657-49A2-BE8B-EDBFDA1E4FE8}|Seewo Note Shot\\Seewo Note Shot.vcxproj|D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\Shot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A31FEE50-6657-49A2-BE8B-EDBFDA1E4FE8}|Seewo Note Shot\\Seewo Note Shot.vcxproj|solutionrelative:Seewo Note Shot\\Shot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31FEE50-6657-49A2-BE8B-EDBFDA1E4FE8}|Seewo Note Shot\\Seewo Note Shot.vcxproj|D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\Init.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A31FEE50-6657-49A2-BE8B-EDBFDA1E4FE8}|Seewo Note Shot\\Seewo Note Shot.vcxproj|solutionrelative:Seewo Note Shot\\Init.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31FEE50-6657-49A2-BE8B-EDBFDA1E4FE8}|Seewo Note Shot\\Seewo Note Shot.vcxproj|D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\extend.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A31FEE50-6657-49A2-BE8B-EDBFDA1E4FE8}|Seewo Note Shot\\Seewo Note Shot.vcxproj|solutionrelative:Seewo Note Shot\\extend.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A31FEE50-6657-49A2-BE8B-EDBFDA1E4FE8}|Seewo Note Shot\\Seewo Note Shot.vcxproj|D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\Init.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A31FEE50-6657-49A2-BE8B-EDBFDA1E4FE8}|Seewo Note Shot\\Seewo Note Shot.vcxproj|solutionrelative:Seewo Note Shot\\Init.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormMain.Designer.cs",
-              "DocumentMoniker": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\FormMain.Designer.cs",
-              "RelativeDocumentMoniker": "Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\FormMain.Designer.cs",
-              "ToolTip": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\FormMain.Designer.cs",
-              "RelativeToolTip": "Seewo Note Shot - \u914D\u7F6E\u5DE5\u5177\\FormMain.Designer.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFUAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T03:21:06.456Z",
+              "Title": "Shot.cpp",
+              "DocumentMoniker": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\Shot.cpp",
+              "RelativeDocumentMoniker": "Seewo Note Shot\\Shot.cpp",
+              "ToolTip": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\Shot.cpp",
+              "RelativeToolTip": "Seewo Note Shot\\Shot.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAFoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-13T15:02:01.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "extend.h",
+              "DocumentMoniker": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\extend.h",
+              "RelativeDocumentMoniker": "Seewo Note Shot\\extend.h",
+              "ToolTip": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\extend.h",
+              "RelativeToolTip": "Seewo Note Shot\\extend.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-13T14:47:24.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Init.h",
+              "DocumentMoniker": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\Init.h",
+              "RelativeDocumentMoniker": "Seewo Note Shot\\Init.h",
+              "ToolTip": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\Init.h",
+              "RelativeToolTip": "Seewo Note Shot\\Init.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-13T14:47:21.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Init.cpp",
+              "DocumentMoniker": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\Init.cpp",
+              "RelativeDocumentMoniker": "Seewo Note Shot\\Init.cpp",
+              "ToolTip": "D:\\Visual Studio \u5F00\u53D1\\\u591A\u8BED\u8A00Project\\\u5E0C\u6C83\u767D\u677F-\u667A\u80FD\u7B14\u8BB0\u52A9\u624B\\Seewo Note Shot\\Init.cpp",
+              "RelativeToolTip": "Seewo Note Shot\\Init.cpp",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAowK4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-13T14:41:00.134Z",
               "EditorCaption": ""
             }
           ]
