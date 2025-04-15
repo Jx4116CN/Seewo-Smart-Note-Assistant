@@ -168,17 +168,19 @@ void Init_Size()
 	screenh = GetSystemMetrics(SM_CYSCREEN);
 	OutLog("Screen width: " + std::to_string(screenw) + " Screen height: " + std::to_string(screenh));
 
-	int spacing = scaleFactor / 480 * 1920;
-	int width = scaleFactor / 29 * 1920;
-	int height = scaleFactor / 19 * 1080;
+	int spacing = 4.0 * scaleFactor;
+	int width = 64.0 * scaleFactor;
+	int height = 56.0 * scaleFactor;
 	right2 = screenw - spacing;
-	right1 = right2 - width * 2;
+	right1 = right2 - width * 2 - spacing;
 	bottom2 = screenh - spacing;
 	bottom1 = bottom2;
 	left2 = right2 - width;
 	left1 = right1 - width;
 	top2 = bottom2 - height;
 	top1 = bottom1 - height;
+	OutLog("left1: " + std::to_string(left1) + " top1: " + std::to_string(top1) + " right1: " + std::to_string(right1) + " bottom1: " + std::to_string(bottom1));
+	OutLog("left2: " + std::to_string(left2) + " top2: " + std::to_string(top2) + " right2: " + std::to_string(right2) + " bottom2: " + std::to_string(bottom2));
 }
 
 void init()

@@ -4,6 +4,9 @@ HWND hWnd = NULL;
 int page_all = 1, page_this = 1, page_shot = 1;
 bool click_last = false, click_next = false;
 
+int times_open = 1;
+bool is_open = false;
+
 bool shot = false;
 void GetShot()
 {
@@ -50,7 +53,7 @@ again:
 	SYSTEMTIME time;
 	GetLocalTime(&time);
 	CreateDirectory(SavePath.c_str(), NULL);
-	dePath = SavePath + std::to_string(time.wYear) + "-" + std::to_string(time.wMonth) + "-" + std::to_string(time.wDay) + "\\";
+	dePath = SavePath + std::to_string(time.wYear) + "-" + std::to_string(time.wMonth) + "-" + std::to_string(time.wDay) + "-" + std::to_string(times_open) + "\\";
 	CreateDirectory(dePath.c_str(), NULL);
 	dePath += "Page_" + std::to_string(page_shot) + "\\";
 	CreateDirectory(dePath.c_str(), NULL);
@@ -109,14 +112,15 @@ void Shot()
 
 	while (true)
 	{
-		//SDL_RenderFillRect(rdr1, NULL);
-		//SDL_RenderFillRect(rdr2, NULL);
-		//SDL_RenderPresent(rdr1);
-		//SDL_RenderPresent(rdr2);
+		/*SDL_RenderFillRect(rdr1, NULL);
+		SDL_RenderFillRect(rdr2, NULL);
+		SDL_RenderPresent(rdr1);
+		SDL_RenderPresent(rdr2);*/
 
 		hWnd = FindWindow(0, "Ï£ÎÖ°×°å");
 		if (hWnd != NULL)
 		{
+			is_open = true;
 			if (KEY_DOWN(VK_LBUTTON))
 			{
 				if (JudgePoint(left1, top1, right1, bottom1))
@@ -147,6 +151,16 @@ void Shot()
 				}
 				click_last = false;
 				click_next = false;
+			}
+		}
+		else
+		{
+			if (is_open)
+			{
+				is_open = false;
+				times_open++;
+				page_all = 1, page_this = 1, page_shot = 1;
+				click_last = false, click_next = false;
 			}
 		}
 		Sleep(1);
