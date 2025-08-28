@@ -55,6 +55,9 @@ again:
 	CreateDirectory(SavePath.c_str(), NULL);
 	dePath = SavePath + std::to_string(time.wYear) + "-" + std::to_string(time.wMonth) + "-" + std::to_string(time.wDay) + "-" + std::to_string(times_open) + "\\";
 	CreateDirectory(dePath.c_str(), NULL);
+	std::string name2 = dePath + std::to_string(time.wYear) + "-" + std::to_string(time.wMonth) + "-" + std::to_string(time.wDay) + "-" + std::to_string(time.wHour) + "-" + std::to_string(page_shot);
+	dePath += "History\\";
+	CreateDirectory(dePath.c_str(), NULL);
 	dePath += "Page_" + std::to_string(page_shot) + "\\";
 	CreateDirectory(dePath.c_str(), NULL);
 	std::string name = dePath + std::to_string(time.wYear) + "-" + std::to_string(time.wMonth) + "-" + std::to_string(time.wDay) + "-" + std::to_string(time.wHour) + "-" + std::to_string(time.wMinute) + "-" + std::to_string(time.wSecond) + "-" + std::to_string(time.wMilliseconds);
@@ -63,22 +66,26 @@ again:
 	{
 	case PNG:
 		name += ".png";
-		if (NULL == IMG_SavePNG(surface, name.c_str())) OutLog("Succeeded to save - " + name);
+		name2 += ".png";
+		if (NULL == IMG_SavePNG(surface, name.c_str()) && NULL == IMG_SavePNG(surface, name2.c_str())) OutLog("Succeeded to save - " + name);
 		else OutLog("Failed to save - " + name);
 		break;
 	case JPEG:
 		name += ".jpeg";
-		if (NULL == IMG_SaveJPG(surface, name.c_str(), 50)) OutLog("Succeeded to save - " + name);
+		name2 += ".jpeg";
+		if (NULL == IMG_SaveJPG(surface, name.c_str(), 50) && IMG_SaveJPG(surface, name2.c_str(), 50)) OutLog("Succeeded to save - " + name);
 		else OutLog("Failed to save - " + name);
 		break;
 	case BMP:
 		name += ".bmp";
-		if (NULL == SDL_SaveBMP(surface, name.c_str())) OutLog("Succeeded to save - " + name);
+		name2 += ".bmp";
+		if (NULL == SDL_SaveBMP(surface, name.c_str()) && SDL_SaveBMP(surface, name2.c_str())) OutLog("Succeeded to save - " + name);
 		else OutLog("Failed to save - " + name);
 		break;
 	default:
 		name += ".png";
-		if (NULL == IMG_SavePNG(surface, name.c_str())) OutLog("Succeeded to save - " + name);
+		name2 += ".png";
+		if (NULL == IMG_SavePNG(surface, name.c_str()) && IMG_SavePNG(surface, name2.c_str())) OutLog("Succeeded to save - " + name);
 		else OutLog("Failed to save - " + name);
 		break;
 	}
