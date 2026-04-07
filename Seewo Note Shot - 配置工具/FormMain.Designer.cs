@@ -1,7 +1,7 @@
-﻿using System.Drawing;
-using System.Windows.Forms;
+﻿using System;
+using System.Drawing;
 using System.IO;
-using System;
+using System.Windows.Forms;
 
 namespace Seewo_Note_Shot___配置工具
 {
@@ -48,6 +48,7 @@ namespace Seewo_Note_Shot___配置工具
             this.CheckBox_Console = new System.Windows.Forms.CheckBox();
             this.Button_Cancel = new System.Windows.Forms.Button();
             this.Button_OK = new System.Windows.Forms.Button();
+            this.Button_View = new System.Windows.Forms.Button();
             this.folderBrowser1 = new System.Windows.Forms.FolderBrowserDialog();
             this.TabControl1.SuspendLayout();
             this.TabPage_save.SuspendLayout();
@@ -172,6 +173,16 @@ namespace Seewo_Note_Shot___配置工具
             this.Button_OK.TabIndex = 2;
             this.Button_OK.Text = "确认";
             this.Button_OK.Click += new System.EventHandler(this.Button_OK_Click);
+            //
+            // Button_View
+            //
+            
+            this.Button_View.Location = new System.Drawing.Point(12, 566);
+            this.Button_View.Name = "Button_View";
+            this.Button_View.Size = new System.Drawing.Size(75, 23);
+            this.Button_View.TabIndex = 1;
+            this.Button_View.Text = "查看";
+            this.Button_View.Click += new System.EventHandler(this.Button_View_Click);
             // 
             // folderBrowser1
             // 
@@ -188,6 +199,7 @@ namespace Seewo_Note_Shot___配置工具
             this.Controls.Add(this.TabControl1);
             this.Controls.Add(this.Button_Cancel);
             this.Controls.Add(this.Button_OK);
+            this.Controls.Add(this.Button_View);
             this.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(360, 640);
@@ -342,5 +354,6 @@ namespace Seewo_Note_Shot___配置工具
 
         private Button Button_OK;
         private Button Button_Cancel;
+        private Button Button_View;
     }
 }

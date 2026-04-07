@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -29,6 +30,21 @@ namespace Seewo_Note_Shot___配置工具
             Write_SPath();
             Write_SWay();
             MessageBox.Show("修改成功！\n重启电脑后生效", "提示", MessageBoxButtons.OK);
+        }
+
+        private void Button_View_Click(object sender, EventArgs e)
+        {
+            string folderPath = this.TextBox_SPath.Text;
+
+            // 确保文件夹存在，否则资源管理器会报错
+            if (Directory.Exists(folderPath))
+            {
+                Process.Start("explorer.exe", folderPath);
+            }
+            else
+            {
+                Console.WriteLine("文件夹不存在");
+            }
         }
 
         private void TextBox_SPath_DoubleClick(object sender, EventArgs e)
