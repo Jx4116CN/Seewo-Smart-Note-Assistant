@@ -44,6 +44,7 @@ namespace Seewo_Note_Shot___配置工具
             else
             {
                 Console.WriteLine("文件夹不存在");
+                MessageBox.Show("文件夹不存在！", "提示", MessageBoxButtons.OK);
             }
         }
 
